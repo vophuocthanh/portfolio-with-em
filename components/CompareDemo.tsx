@@ -4,7 +4,7 @@ export function CompareDemo() {
   return (
     <div className='max-w-6xl mx-auto'>
       <h1 className='text-xl font-bold mb-10'>Code Example</h1>
-      <div className='flex flex-col md:flex-row gap-10'>
+      <div className='flex flex-col justify-center items-center mx-auto md:flex-row gap-10'>
         <div className='p-4 border rounded-3xl dark:bg-neutral-900 bg-neutral-100  border-neutral-200 dark:border-neutral-800 w-96 sm:w-[33.5rem] px-4'>
           <Compare
             firstImage='https://assets.aceternity.com/code-problem.png'
