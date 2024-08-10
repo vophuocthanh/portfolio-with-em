@@ -27,7 +27,7 @@ export function MeteorsDemo() {
   return (
     <div className='max-w-6xl mx-auto flex justify-center items-center flex-col md:flex-row gap-4 my-20'>
       {textData.map((data) => (
-        <div className='w-full max-w-xs' key={data.id}>
+        <div className='w-full max-w-xl sm:max-w-xs' key={data.id}>
           <div className='absolute inset-0 h-full w-full  transform scale-[0.80] rounded-full blur-3xl' />
           <div className='relative shadow-xl bg-gray-900 border border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start'>
             <div className='h-5 w-5 rounded-full border flex items-center justify-center mb-4 border-gray-500'>

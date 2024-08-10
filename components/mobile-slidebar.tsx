@@ -25,14 +25,14 @@ export function MobilePage({ className }: Props) {
             >
               Trân Đoàn
             </Link>
-            <div className='pl-6'>
+            {/* <div className='pl-6'>
               <Link
                 href='/blog'
                 className='hover:text-green-400 hover:underline text-3xl font-bold'
               >
                 Blogs
               </Link>
-            </div>
+            </div> */}
             <Link
               href='/project'
               className='hover:text-green-400 hover:underline text-3xl font-bold'
